@@ -18,7 +18,7 @@ public class codingTest40 {
                 }
             }
             int count = 0;
-            for (int i = 0; i <= Max - Min; i++) {
+            for (int i = 0; i <= Max - Min; i++) { //0부터 max-min값 까지 배열
                 if (!Check[i]) { //false 인거만
                     count++; //카운터 증가
                 }
